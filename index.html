@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link href="main.css" rel="stylesheet" type="text/css">
+        <link href="bootstrap.min.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <div class="box1">
+            
+        </div>
+        <script>
+            let sec1 = document.querySelector('.box1');
+            setInterval(function(){
+                if(window.innerWidth < 897){
+                    sec1.style.backgroundImage = "url(b1M2.jpg)";
+                }else{
+                    sec1.style.backgroundImage = "url(background1.jpg)";
+                }
+            },100);
+           
+        </script>
+
+    </body>
+</html>

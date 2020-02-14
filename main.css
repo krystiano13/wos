@@ -1,0 +1,10 @@
+.box1{
+    background: url('background1.jpg');
+    width: 100%;
+    height:150vh;
+    backface-visibility: visible;
+    background-repeat: no-repeat;
+}
+@media only screen and (max-width: 896px) {
+    #prawe_menu { display: none; }
+}
