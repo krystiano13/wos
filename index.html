@@ -4,6 +4,9 @@
         <meta charset="utf-8">
         <link href="main.css" rel="stylesheet" type="text/css">
         <link href="bootstrap.min.css" rel="stylesheet" type="text/css">
+        <meta name="handheldFriendly" content="true" />
+        <meta name="MobileOptimized" content="240">
+        <meta name="viewport" content="width=device-width; initial-scale=1" />
     </head>
     <body>
         <div class="box1">
@@ -12,7 +15,7 @@
         <script>
             let sec1 = document.querySelector('.box1');
             setInterval(function(){
-                if(window.innerWidth < 414){
+               if(window.innerWidth < 800){
                     sec1.style.backgroundImage = "url(b1M2.jpg)";
                 }else{
                     sec1.style.backgroundImage = "url(background1.jpg)";
